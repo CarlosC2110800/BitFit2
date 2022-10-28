@@ -34,7 +34,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Default selection
-        bottomNavigationView.selectedItemId = R.id.main_menu
+        var count = 0
+        if (count == 0) {
+            bottomNavigationView.selectedItemId = R.id.main_menu
+            ++count
+        }
+
 
         exerciseAddButton = findViewById(R.id.exerciseButton)
 
