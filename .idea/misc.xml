@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lyeax/Desktop/School/Appdev/BitFit2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/lyeax/Desktop/School/Appdev/BitFit2/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lyeax/Desktop/School/Appdev/BitFit2/app/src/main/res/layout/fragment_exercise_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lyeax/Desktop/School/Appdev/BitFit2/app/src/main/res/layout/fragment_overview.xml" value="0.33" />
+        <entry key="..\:/Users/lyeax/Desktop/School/Appdev/BitFit2/app/src/main/res/layout/main_list.xml" value="0.33" />
         <entry key="..\:/Users/lyeax/Desktop/School/Appdev/BitFit2/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.33" />
       </map>
     </option>

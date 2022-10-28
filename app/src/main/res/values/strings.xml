@@ -3,4 +3,15 @@
     <string name="add_a_new_exercise">Add A new Exercise</string>
     <string name="dashboard">Dashboard</string>
     <string name="main_fragment">Main Menu</string>
+    <string name="record_exercise">Record Exercise</string>
+    <string name="time">Time:</string>
+    <string name="exercise">Exercise:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="jumping_jacks">Jumping Jacks</string>
+    <string name="timeshow">Time</string>
+    <string name="_0m">0m</string>
+    <string name="average_calories">Average Time:</string>
+    <string name="minimum_calories">Minimum Time:</string>
+    <string name="maximum_calories">Maximum Time:</string>
+    <string name="time_are_in_min_sec">Time are in min.sec</string>
 </resources>
