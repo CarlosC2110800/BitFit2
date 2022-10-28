@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
+import java.math.RoundingMode
+import java.text.DecimalFormat
 
 private const val TAG = "OverviewFragment"
 
@@ -62,7 +64,7 @@ class OverviewFragment : Fragment() {
                 }
                     val average = total / sizeOfList
 
-                    avgTime.text = average.toString()
+                    avgTime.text = roundOffDecimal(average).toString()
                     maxTime.text = max.toString()
                     minTime.text = min.toString()
 
@@ -70,6 +72,11 @@ class OverviewFragment : Fragment() {
 
             }
         }
+    }
+    private fun roundOffDecimal(number: Double): Double? {
+        val df = DecimalFormat("#.##")
+        df.roundingMode = RoundingMode.CEILING
+        return df.format(number).toDouble()
     }
 
     companion object {
