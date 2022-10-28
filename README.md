@@ -4,7 +4,7 @@ Submitted by: **Carlos Chavez**
 
 **Name of your app** is a health metrics app that allows users to track exercises and the time with them
 
-Time spent: **X** hours spent in total
+Time spent: **9** hours spent in total
 
 ## Required Features
 
