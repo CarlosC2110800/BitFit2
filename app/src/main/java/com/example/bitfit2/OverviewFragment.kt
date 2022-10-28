@@ -73,6 +73,7 @@ class OverviewFragment : Fragment() {
             }
         }
     }
+    // Function to round a double to 2 place gotten from stackflow user
     private fun roundOffDecimal(number: Double): Double? {
         val df = DecimalFormat("#.##")
         df.roundingMode = RoundingMode.CEILING
